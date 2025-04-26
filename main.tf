@@ -12,7 +12,7 @@ terraform {
     # 指定状态文件在存储桶中的路径和文件名
     key = "pipeline-terraform-statusfile/terraform.tfstate"
     # 指定 S3 存储桶所在的 AWS 区域
-    region = "us-east-1"
+    region = "ap-northeast-1"
   }
 }
 
